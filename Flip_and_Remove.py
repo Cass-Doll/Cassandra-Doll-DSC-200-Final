@@ -17,6 +17,3 @@ df_transposed = df_transposed.iloc[:-1]
 #save to csv
 output_file = "Flip_and_Remove.csv"
 df_transposed.to_csv(output_file, index=False)
-
-
-print(f"Processed CSV saved to {output_file}")
