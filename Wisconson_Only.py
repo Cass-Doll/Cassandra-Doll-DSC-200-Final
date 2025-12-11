@@ -12,8 +12,3 @@ df_WI = df[df["StateName"] == "WI"]
 
 #save result
 df_WI.to_csv(output_file, index=False)
-
-print(f"Saved WI-only dataset as '{output_file}'.")
-print("Original rows:", len(df))
-print("Rows with StateName == 'WI':", len(df_WI))
-
